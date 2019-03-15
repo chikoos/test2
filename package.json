@@ -7,7 +7,7 @@
     "build": "npm run lint",
     "lint": "eslint lib",
     "fixlint": "eslint ./lib ./tests --fix",
-    "unit-test": "/usr/bin/jest 'tests/unit/**/*.test.js'"
+    "unit-test": "jest 'tests/unit/**/*.test.js'"
   },
   "repository": {
     "type": "git",
