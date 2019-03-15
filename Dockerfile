@@ -1,4 +1,4 @@
-FROM alpine AS base
+FROM node:8.15-alpine AS base
 # apk update and install nodejs
 RUN apk update && apk add nodejs nodejs-npm
 
