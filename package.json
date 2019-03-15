@@ -14,11 +14,7 @@
     "url": "git@github.com:chikoos/devops-test1.git"
   },
   "devDependencies": {
-    "eslint": "5.15.1",
-    "jest": "24.5.0"
-  },
-  "dependencies": {
-    "express": "4.16.4"
+    "eslint": "5.15.1"
   },
   "license": "ISC",
   "author": "Sunil Singhal"
