@@ -1,0 +1,25 @@
+{
+  "name": "testapp",
+  "version": "1.0.0",
+  "description": "Test App",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "npm run lint",
+    "lint": "eslint lib",
+    "fixlint": "eslint ./lib ./tests --fix",
+    "unit-test": "/usr/bin/jest 'tests/unit/**/*.test.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:chikoos/devops-test1.git"
+  },
+  "devDependencies": {
+    "eslint": "5.15.1",
+    "jest": "24.5.0"
+  },
+  "dependencies": {
+    "express": "4.16.4"
+  },
+  "license": "ISC",
+  "author": "Sunil Singhal"
+}
